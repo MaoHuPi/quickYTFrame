@@ -1,4 +1,4 @@
-![quickYTFrame_logo](/image/logo_128.png)
+![quickYTFrame_logo](/image/logo.png)
 # Quick YT Frame
 > 2023 &copy; MaoHuPi
 
