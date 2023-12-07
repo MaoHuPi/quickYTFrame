@@ -1,0 +1,24 @@
+{
+    "name": "Quick YT Frame",
+    "description": "快速將廣告攔截器警告替換成嵌入模式來進行yt影片播放。",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "icons": {
+        "128": "image/logo_128.png",
+        "48": "image/logo_48.png",
+        "16": "image/logo_16.png"
+    },
+    "content_scripts": [
+        {
+            "all_frames": false,
+            "js": [
+                "main.js"
+            ],
+            "matches": [
+                "http://*.youtube.com/*",
+                "https://*.youtube.com/*"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
